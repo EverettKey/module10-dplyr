@@ -17,17 +17,17 @@ devtools::install_github("hadley/fueleconomy")
 library(fueleconomy)
 
 # You should now have access to the `vehicles` data.frame
-
+vehicles
 
 # Select the different manufacturers (makes) of the cars in this data set.
-
+manufacturers
 
 # Use the `unique()` function to determine how many different car manufacturers
 # are represented by the data set.
 
 
 # Filter the data set for vehicles manufactured in 1997
-
+manufacture
 
 # Arrange the 1997 cars by highway (`hwy`) gas milage
 # Hint: use the `order()` function similar to how you would use the `max()` function.
